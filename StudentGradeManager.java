@@ -1,6 +1,6 @@
-import java.util.*;
+/* 
 import java.io.*;
-
+import java.util.*;
 public class StudentGradeManager {
 
     static ArrayList<Student> students = new ArrayList<>();
@@ -268,3 +268,33 @@ public class StudentGradeManager {
         }
     }
 }
+    
+    */
+   /*  public class StudentGradeManager {
+
+    public static class Student {
+        int id;
+        String name;
+        int marks;
+
+        public Student(int id, String name, int marks) {
+            this.id = id;
+            this.name = name;
+            this.marks = marks;
+        }
+
+        public String grade() {
+            if (marks >= 90) return "A";
+            else if (marks >= 75) return "B";
+            else if (marks >= 60) return "C";
+            else return "F";
+        }
+    }
+
+    public static void main(String[] args) {
+        Student s = new Student(1, "Harini", 88);
+        System.out.println("Grade: " + s.grade());
+    }
+}
+    */
+    
